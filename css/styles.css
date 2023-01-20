@@ -12,6 +12,7 @@
   --hero-background: rgba(46, 47, 66, 0.7);
   --background-white: #ffffff;
 }
+
 /* Body */
 body {
   font-family: 'Roboto', 'sans-serif';
@@ -19,6 +20,51 @@ body {
   letter-spacing: 0.02em;
   background-color: var(--background-white);
 }
+
+/* Reset Start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  height: 1px;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  width: 1px;
+  overflow: hidden;
+}
+/* reset end */
+
+/* container */
+.container {
+  max-width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* Current color */
 .navigation-list .link.current {
   color: var(--pressed-state);
@@ -171,4 +217,34 @@ body {
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
+}
+
+/* outline */
+.footer {
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+.section {
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+.header {
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+.hero-section {
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+.section-work {
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+.section-team {
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
