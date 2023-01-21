@@ -248,3 +248,29 @@ img {
   outline: 2px solid red;
   outline-offset: -2px;
 }
+
+/* FLEX */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+}
