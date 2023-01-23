@@ -416,10 +416,8 @@ img {
   outline-offset: -2px;
 } */
 
-.filter-img {
-  margin-bottom: 32px;
-}
 .img-text {
+  padding-top: 32px;
   padding-bottom: 32px;
 }
 
