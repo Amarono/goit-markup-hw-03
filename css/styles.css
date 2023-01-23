@@ -16,6 +16,8 @@
 
   --indent: 24px;
   --cards: 3;
+  --cardshadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 /* Body */
@@ -74,6 +76,8 @@ img {
 /* Current color */
 .navigation-list .link.current {
   color: var(--pressed-state);
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* logo */
@@ -86,6 +90,8 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 76px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 .logo-dark {
   color: var(--dark);
@@ -116,6 +122,8 @@ img {
   line-height: calc(24 / 16);
   text-decoration: none;
   letter-spacing: 0.02em;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .link:hover,
@@ -124,6 +132,8 @@ img {
 }
 .navigation-list {
   list-style: none;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 /* Contacs */
 .contact-item {
@@ -131,10 +141,14 @@ img {
   font-weight: 400;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .contact-list {
   list-style: none;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 /* Hero section */
 .hero-section {
@@ -144,6 +158,8 @@ img {
   padding-top: 188px;
   padding-bottom: 292px;
   margin: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .hero-title {
@@ -155,6 +171,8 @@ img {
   margin-right: auto;
   text-align: center;
   margin-bottom: 48px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 /* Button */
 .primary-btn {
@@ -173,6 +191,8 @@ img {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .primary-btn:hover,
@@ -187,6 +207,8 @@ img {
   font-weight: 500;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 /* What are we doing */
 .section-title {
@@ -196,22 +218,30 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 72px;
   text-align: center;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* Our team */
 
 .section-team {
   background-color: var(--light);
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .section-card {
   background-color: var(--background-white);
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 /* Footer */
 
 .footer {
   color: var(--accent);
   background-color: var(--dark);
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* Portfolio */
@@ -238,10 +268,14 @@ img {
 .secondary-btn {
   border: 2px solid transparent;
   border-radius: 5px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .section-filter {
   list-style: none;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .section-title-portfolio {
@@ -249,101 +283,153 @@ img {
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 /* FLEX */
 .header-container {
   display: flex;
   align-items: center;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 3px solid var(--accent);
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .navigation-list {
   display: flex;
   gap: 40px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .contact-list {
   display: flex;
   gap: 40px;
   margin-left: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .undertitle {
   margin-bottom: 8px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .section-list {
   display: flex;
   gap: 24px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 .section-list > .item {
   flex-basis: calc(100% / 4);
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .work-list {
   display: flex;
   align-items: center;
   gap: 24px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .card-list {
   display: flex;
   align-items: center;
   gap: 24px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .section-work {
   padding-bottom: 120px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .section-team {
   padding-top: 120px;
   padding-bottom: 120px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .card-description {
   padding: 32px 16px;
   text-align: center;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 .footer-text {
   max-width: 264px;
   margin-top: 16px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* Portfolio */
 
 .section-filter {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 72px;
   margin-top: 96px;
   outline: 2px solid red;
   outline-offset: -2px;
   justify-content: center;
   gap: 24px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .filter-list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
-.filter-list > .filter-item {
-  flex-basis: calc ((100% - (var(--indent) * (var(--cards) - 1))) / var(--cards));
+
+.filter-img {
+  margin-bottom: 32px;
+}
+.img-text {
+  padding-bottom: 32px;
+}
+
+.filter-item {
+  flex-basis: calc((100% - (var(--indent) * (var(--cards) - 1))) / var(--cards));
+  box-shadow: var(--cardshadow);
+  /* margin-bottom: 48px; */
+}
+.filter-item:nth-last-of-type(n + 4) {
+  margin-bottom: 48px;
+}
+
+.section-buttons {
+  padding-bottom: 120px;
 }
