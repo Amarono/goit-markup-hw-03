@@ -396,8 +396,10 @@ img {
 
 .section-filter {
   display: flex;
-  margin-bottom: 72px;
-  margin-top: 96px;
+  /* margin-bottom: 72px;
+  margin-top: 96px; */
+  padding-top: 96px;
+  padding-bottom: 72px;
   outline: 2px solid red;
   outline-offset: -2px;
   justify-content: center;
